@@ -1,3 +1,10 @@
-<h1>this is blah blah title</h1>
-<button>Do not click here</button>
+<h1 id="title">this is blah blah title</h1>
+<button onclick="changeTitle ( 'test ! ' )">Do not click here</button>
+<script>
+	function changeTitle() {
+		var title_element = document.getElementById("title") 
+		title_element.innerText = 'NEW TITLE!'
+}
+	
+</script>
 
